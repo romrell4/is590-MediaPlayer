@@ -51,7 +51,7 @@ class TalksFragment: Fragment() {
 
                 itemView.setOnClickListener {
                     fragmentManager.beginTransaction()
-                            .replace(R.id.frameLayout, MediaFragment.newInstance(talk.videoUrl, talk.audioUrl))
+                            .replace(R.id.frameLayout, ExoMediaFragment.newInstance(talk.videoUrl, talk.audioUrl))
                             .addToBackStack(null)
                             .commit()
                 }
