@@ -6,4 +6,5 @@
 	<string name="video">Video</string>
 	<string name="fastSpeed">2x</string>
 	<string name="normalSpeed">1x</string>
+	<string name="delete_cache">Delete Cache</string>
 </resources>
